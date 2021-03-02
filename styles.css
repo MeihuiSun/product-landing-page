@@ -1,0 +1,72 @@
+
+section{
+    height:auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+}
+
+#teacher{
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+p.blocktext{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    width:80%;
+}
+
+
+#classes{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+} 
+
+
+#private, #online-class, #in-person {
+    width: 20rem;
+    height: 15rem;
+    margin-top: 10px;
+}
+
+.card-text{
+    text-align: left;
+}
+
+#select{
+    margin: 0 0 10px 0;
+}
+
+#about-belly-dance{
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 900px) {
+
+    #classes{
+        flex-wrap: wrap;
+    }
+
+    iframe{
+        height: auto;
+        width: auto;
+    }
+    card{
+        width: auto;
+    }
+    section{
+        width: auto;
+    }
+  }

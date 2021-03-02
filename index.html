@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header id="header">
+        <!-- use id with the content to connect with the nav bar -->
+        <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-band" href="#">
+                    <img id="header-img" src="logo.jpg" alt="belly dance class logo" width="90" height="80"
+                        class="d-inline-block align-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#teacher">Teacher</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#classes">Classes with Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-belly-dance">About Bellydance</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#subscribe">More Info</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="teacher">
+        <h2>Vanessa Shams</h2>
+        <div id="video" class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="350" class="embed-responsive-item" src="https://youtube.com//embed/CTchMg2HlVc"
+                allowfullscreen></iframe>
+        </div>
+        <p class="blocktext"> At the age of 20, Vanessa has discovered her passion for belly dance back in China.
+            She devoted herself to dance for 3 years before coming to Canada in 2014 where she began her dance
+            adventure with
+            Yasmina Ramzy. In 2016 Vanessa joined Arabesque Dance Company and Yasmina Ramzy Arts whom she performed
+            among
+            festivals/events with such as the CNE, Dance Ontario Dance Weekend, and weddings etc.
+            In 2018, Vanessa was a member of Mohamed Salah Ensemble, performed Hagala, Street shabby,
+            and Nubian dance at Blossom Festival. Moreover, she had graduated from Yasmina’s famous Pro course and
+            presented her first creation at the end of 2018. Vanessa performed several times with live music by
+            George Sawa and Alpharabius in 2019. To enhance her experience and skills, Vanessa has studied with
+            notable instructors such as Dina, Dr. Mohamed Geddawi, Mohamed Haiek, Esmeralda Colabone, Melissa Gamal,
+            Sashar Zarif, Robert Desrosiers, Jeff Dimitriou, Michael Ibrahim, George Sawa, Simon Sako and
+            Esraa Warda. With all the training, she has experienced with wide variety of dance styles such as Iraqi,
+            Khleegy, Saidi, Mewashah, Debke, Moroccan chaabi, falahi and Algerian Dance. </p>
+    </section>
+
+    <section id="classes">
+        <div class="card" id="private">
+            <div class="card-header">
+                <h4>Private Coaching</h4>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+            <div id="select">
+                <button class="btn btn-info">Select</button>
+            </div>
+        </div>
+        <div class="card" id="online-class">
+            <div class="card-header">
+                <h4>Group Classes</h4>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+            <div id="select">
+                <button class="btn btn-info">Select</button>
+            </div>
+        </div>
+        <div class="card" id="in-person">
+            <div class="card-header">
+                <h4>In Person Class</h4>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
+            <div id="select">
+                <button type="button" class="btn btn-info">Select</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-belly-dance">
+        <div class="card">
+            <h3 class="card-header">About Bellydance</h3>
+            <div class="card-body">
+                <h3 class="card-title">What is bellydance (Raqs Sharqi)?</h3>
+                <p class="card-text">
+                    Raqs Sharqi, is the phrase translated from Arabic, which literally means "Dance of the Orient".
+                    It is this that middle Eastern people use to name their dance form.
+                </p>
+                <a class="btn btn-primary"
+                    href="https://www.bellydancebysasha.com/belly-dancer-about-sasha/the-belly-dance/"
+                    target="_blank">Click here for More Information</a>
+            </div>
+
+            <div class="card-body">
+                <h3 class="card-title">Benefits of Bellydance</h3>
+                <p class="card-text">
+                    There are many benefits for bellydance
+                </p>
+                <a class="btn btn-primary" href="https://www.worldbellydance.com/health-benefits-belly-dance/"
+                    target="_blank">Click here for More Information</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="subscribe">
+        <h3>Need more info? Subscribe email</h3>
+        <form class="form-group" id="form" action="https://www.freecodecamp.com/email-submit">
+            <!--add a first name input in the form in the future-->
+            <input type="email" name="email" id="email" placeholder="Enter your email here" required>
+            <input type="submit" id="submit" class="btn btn-primary" value="Subscribe">
+        </form>
+    </section>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <span>In the future add some social media icon, add some more media queries, and improve the design</span> <br>
+        <span>Copyright 2021 Vanessa Shams</span>
+    </footer>
+</body>
+
+</html>
